@@ -22,7 +22,7 @@ monitor:
     
 properties:
   AWS_ACCESS_KEY_ID: 
-    vault: AWS_ACCESS_KEY_ID
+    vault: YACE_AWS_ACCESS_KEY_ID
   AWS_SECRET_ACCESS_KEY:
-    vault: AWS_SECRET_ACCESS_KEY
+    vault: YACE_AWS_SECRET_ACCESS_KEY
   revision : 1
