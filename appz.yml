@@ -1,0 +1,27 @@
+app:
+  name: yace
+  code: yace
+  notify: svengathattil@gmail.com
+    
+build:
+  version: 0.29
+  env: DEV
+  build_file: none
+  output_files: output/*.zip
+  image_template: yace-0.29
+  image_name: alpha/yace
+    
+deploy:
+  context: sidharth-v/DEV
+  replicas: 1
+
+    
+monitor:
+  notify: svengathattil@gmail.com    
+    
+properties:
+  AWS_ACCESS_KEY_ID: 
+    vault: AWS_ACCESS_KEY_ID
+  AWS_SECRET_ACCESS_KEY:
+    vault: AWS_SECRET_ACCESS_KEY
+  revision : 1
