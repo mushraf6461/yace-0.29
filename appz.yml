@@ -1,7 +1,7 @@
 app:
   name: yace
   code: yace
-  notify: svengathattil@gmail.com
+  notify: svengathattil@ecloudcontrol.com
     
 build:
   version: 0.29
@@ -18,11 +18,11 @@ deploy:
 
     
 monitor:
-  notify: svengathattil@gmail.com    
+  notify: svengathattil@ecloudcontrol.com    
     
 properties:
   AWS_ACCESS_KEY_ID: 
-    vault: YACE_AWS_ACCESS_KEY_ID
+    vault: AWS_ACCESS_KEY_ID
   AWS_SECRET_ACCESS_KEY:
-    vault: YACE_AWS_SECRET_ACCESS_KEY
+    vault: AWS_SECRET_ACCESS_KEY
   revision : 1
