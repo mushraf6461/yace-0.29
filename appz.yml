@@ -9,7 +9,6 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: yace-0.29
-  image_name: alpha/yace
     
 deploy:
   context: sidharth-v/DEV
