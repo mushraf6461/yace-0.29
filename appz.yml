@@ -1,7 +1,7 @@
 app:
   name: yace
   code: yace
-  notify: svengathattil@ecloudcontrol.com
+  notify: mmushraf@ecloudcontrol.com
     
 build:
   version: 0.29
@@ -11,14 +11,14 @@ build:
   image_template: yace-0.29
     
 deploy:
-  context: sidharth-v/DEV
+  context: mushraf6461/DEV
   replicas: 1
   port :
   - 5000
 
     
 monitor:
-  notify: svengathattil@ecloudcontrol.com    
+  notify: mmushraf@ecloudcontrol.com    
     
 properties:
   AWS_ACCESS_KEY_ID: 
