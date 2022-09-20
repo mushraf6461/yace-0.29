@@ -5,7 +5,7 @@ discovery:
       - DBInstanceIdentifier
   jobs:
   - regions:
-    - us-east-2
+    - us-west-2
     - us-east-1
     type: rds
     enableMetricData: true
